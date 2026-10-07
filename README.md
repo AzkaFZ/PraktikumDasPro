@@ -5,3 +5,7 @@
 </p>
 
 
+ini adalah repository pertama saya
+Nama  : Azka Fairuz Zayyan
+NIM   : 264107020227
+Kelas : TI-1F
