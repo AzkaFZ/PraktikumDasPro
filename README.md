@@ -1,4 +1,4 @@
-Hasil uji Studi Kasus 2 Oleh Fandi
+Hasil uji Studi Kasus 2 Oleh Fandi 
 
 | No | Jenis    | Dokumen | Juara/Dana | Output                                                                | 
 |----|----------|---------|------------|-----------------------------------------------------------------------|
