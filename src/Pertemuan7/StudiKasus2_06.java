@@ -33,6 +33,23 @@ public class StudiKasus2_06 {
                 }else {
                     System.out.println("Status : Anda bukan peringkat 1, 2, dan 3. Dana Pernghargaan Tidak Diberikan");
                 }
+        }else if (jenis.equalsIgnoreCase("PKM")) {
+            System.out.print("Jumlah Dokumen Yang Diupload : ");
+            jmlDokumen = azka.nextInt();
+            System.out.print("Apakah Lolos Pendanaan (1=lolos/0=tdk lolos): ");
+            pendanaan = azka.nextInt();
+            if (pendanaan == 1) {
+                if (jmlDokumen ==4){
+                    System.out.println("Status : Dana Penghargaan Diberikan");
+                } else {
+                    System.out.println("Status : Dokumen Tidak Lengkap (kurang" +(4-jmlDokumen)+ ". Dana Tidak Diberikan");
+                } 
+            
+            }else {
+                System.out.println("Status : Anda Tidak Lolos Penadanaan. Dana Pernghargaan Tidak Diberikan");
             }
+        }else {
+            System.out.println("Status : Jenis Kegiatan Tidak Valid");
+        }
     }
 }
