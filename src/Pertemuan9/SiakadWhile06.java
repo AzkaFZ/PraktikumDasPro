@@ -1,6 +1,6 @@
 package Pertemuan9;
 // Kategori nilai huruf (A/B+/B/C+/C/D/E) mengikuti skala penilaian resmi kampus sehingga TIDAK diubah.
-// Pada Pertanyaan no. 3, ganti angka "19" pada soal dengan 15 + (P mod 10) → lalu jawab ulang pertanyaannya memakai angka Anda sendiri | 15 + (6 mod 10) = 21
+// Pada Pertanyaan no. 3, ganti angka "19" pada soal dengan 15 + (P mod 10) → lalu jawab ulang pertanyaannya memakai angka Anda sendiri \ 15 + (6 mod 10) = 21
 import java.util.Scanner;
 
 public class SiakadWhile06 {
