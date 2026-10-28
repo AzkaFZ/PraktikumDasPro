@@ -25,6 +25,7 @@ public class KafeDoWhile06 {
             teh = sc.nextInt();
             System.out.print("Jumlah roti: ");
             roti = sc.nextInt();
+            sc.nextLine();
             int totalHarga = (kopi*hargaKopi) + (teh*hargaTeh) + (roti*hargaRoti);
             System.out.println("Total harga yang harus dibayar: "+totalHarga);
         } while (true);
