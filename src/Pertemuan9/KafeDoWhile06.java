@@ -1,4 +1,7 @@
 package Pertemuan9;
+//  hargaKopi = 10000 + (6 mod 5) × 1000 → gantikan Rp12.000 pada soal | 10000 + 1 x 1000 = 11000
+// hargaTeh = 5000 + (6 mod 4) × 1000 → gantikan Rp7.000 pada soal | 5000 + 2 x 1000 = 7000
+// hargaRoti = 15000 + (6 mod 6) × 1000 → gantikan Rp20.000 pada soal 15000 + 0 x 1000 = 15000
 import java.util.Scanner;
 
 public class KafeDoWhile06 {
