@@ -1,7 +1,10 @@
 package Pertemuan9;
 // Harga tiket = 40000 + (P mod 6) × 2000 → gantikan Rp50.000 pada soal
+// harga tiket = 40000 + (6 mod 6) x 2000 = 40000
 // Syarat diskon pertama = lebih dari (3 + (P mod 3)) tiket, dengan diskon (8 + (P mod 5))% → gantikan "lebih dari 4 tiket, diskon 10%"
+// Syarat diskon pertama = lebih dari (3 + (6 mod 3)) = 3 tiket, diskon = (8 + (6 mod 5))% = 9%
 // Syarat diskon kedua = lebih dari (8 + (P mod 4)) tiket, dengan diskon (15 + (P mod 4))% → gantikan "lebih dari 10 tiket, diskon 15%"
+// Syarat diskon kedua = lebih dari (8 + (6 mod 4)) tiket, diskon = (15 + (6 mod 4))% = 17%
 import java.util.Scanner;
 
 public class Bioskop06 {
