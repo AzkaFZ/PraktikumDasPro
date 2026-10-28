@@ -9,7 +9,7 @@ public class KafeDoWhile06 {
         Scanner sc = new Scanner(System.in);
         int kopi, teh, roti;
         String namaPelanggan;
-        int hargaKopi=12000, hargaTeh=7000, hargaRoti=20000;
+        int hargaKopi=11000, hargaTeh=7000, hargaRoti=15000;
 
         do {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
