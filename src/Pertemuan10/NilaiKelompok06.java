@@ -13,7 +13,42 @@ public class NilaiKelompok06 {
         if (jumlahKelompok <= 0 || jumlahPenilai <= 0) {
             System.out.println("Jumlah kelompok dan penilai harus > 0.");
         } else {
-        }
+            int nomorKelompok = 1;        // penghitung outer loop 
+            double rataTertinggi = -1;    // -1 agar kelompok pertama pasti tercatat 
+            int kelompokTerbaik = 0;
+
+            while (nomorKelompok <= jumlahKelompok) {
+                System.out.println("Kelompok " + nomorKelompok);
+                double totalNilai = 0;
+
+                // inner loop langkah 5
+                for (int j = 1; j <= jumlahPenilai; j++) {
+                    int nilai;
+                    do {
+                        System.out.print(" Nilai dari penilai " + j + ": ");
+                        nilai = sc.nextInt();
+                        if (nilai < 0 || nilai > 100) {
+                            System.out.println(" Nilai harus 0-100. Ulangi input!");
+                        }
+                    } while (nilai < 0 || nilai > 100);
+                    totalNilai += nilai;
+                }
+
+                // langkah 6-7
+                double rataNilai = totalNilai / jumlahPenilai;
+                System.out.println("Kelompok " + nomorKelompok + ": nilai rata rata = " + rataNilai);
+
+                if (rataNilai > rataTertinggi) {
+                    rataTertinggi = rataNilai;
+                    kelompokTerbaik = nomorKelompok;
+                }
+                nomorKelompok++;
+            }
+
+            System.out.println("=================================");
+            System.out.println("Kelompok terbaik     : " + kelompokTerbaik);
+            System.out.println("Rata-rata tertinggi  : " + rataTertinggi);
+                    }
         sc.close();
     }
 }
