@@ -7,16 +7,16 @@ public class Triangle06 {
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
 
-        int i = 0;
-        while (i <= n) {
-            System.out.print("[i=" + i + "] ");
+        int i = n;
+        while (i >= 1) {
+            // System.out.print("[i=" + i + "] ");
             int j = 0;
             while (j < i) {
                 System.out.print("*");
                 j++;
             }
             System.out.println();
-            i++;
+            i--;
         }
         sc.close();
     }
