@@ -80,6 +80,6 @@ public class Tugas2_06 {
         } 
          
     System.out.printf("%-19s Rp %,8d%n", "TOTAL BIAYA", total);
-    sc.close();
+    sc.close(); 
     } 
 }
