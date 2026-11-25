@@ -39,6 +39,6 @@ public class ArrayRataNilai06 {
         } else {
             System.out.println("Predikat Kelas: PERLU PENDAMPINGAN");
         }
-        sc.close();
+        sc.close(); 
     }
 }
