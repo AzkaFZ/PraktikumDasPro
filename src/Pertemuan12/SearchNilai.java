@@ -26,6 +26,6 @@ public class SearchNilai {
         if (!ditemukan) { 
             System.out.println("Nilai " + key + " tidak ditemukan dalam "+jmlh+" elemen array."); 
         }
-        sc.close();
+        sc.close(); 
     }
 }
