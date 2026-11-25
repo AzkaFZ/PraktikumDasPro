@@ -16,6 +16,6 @@ public class SortNilai06 {
           } 
         } 
 System.out.println(Arrays.toString(nilai));
-        sc.close();
+        sc.close(); 
     }
 }
