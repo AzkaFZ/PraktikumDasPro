@@ -19,15 +19,20 @@ public class BioskopWithScanner06 {
             menu = sc.nextInt();
             sc.nextLine();
             if (menu==1) {
-                 System.out.print("Masukkan nama: ");
+                System.out.print("Masukkan nama: ");
                 nama = sc.nextLine();
-                System.out.print("Masukkan baris: ");
-                baris = sc.nextInt();
-                System.out.print("Masukkan kolom: ");
-                kolom = sc.nextInt();
-                sc.nextLine();
-
-                penonton[baris - 1][kolom - 1] = nama;
+                while (true) {
+                    System.out.print("Masukkan baris: ");
+                    baris = sc.nextInt();
+                    System.out.print("Masukkan kolom: ");
+                    kolom = sc.nextInt();
+                    sc.nextLine();
+                    
+                    if (baris < 1 || baris > penonton.length || kolom < 1 || kolom > penonton[baris - 1].length) {
+                        System.out.println("Baris/kolom tidak tersedia");
+                    } 
+                }
+                // penonton[baris - 1][kolom - 1] = nama;
 
                 System.out.print("Input penonton lainnya? (y/n): ");
                 pilihan = sc.nextLine();
