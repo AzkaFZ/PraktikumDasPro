@@ -37,13 +37,14 @@ public class BioskopWithScanner06 {
                     } 
                 }
                 penonton[baris - 1][kolom - 1] = nama;
-
             } else if (menu==2) {
-                for (int i = 0; i < penonton.length; i++) {
-                    
-                }
-            } else {
-                
+                 for (int i = 0; i < penonton.length; i++) {
+                    for (int j = 0; j < penonton[i].length; j++) {
+                        System.out.print((penonton[i][j] == null ? "***" : penonton[i][j]) + "\t");
+                    }
+                    System.out.println();                 } 
+            } else if (menu!=3) {
+                System.out.println("Menu Tidak Valid");
             }
            
         }
