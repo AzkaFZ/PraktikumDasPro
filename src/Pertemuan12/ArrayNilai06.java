@@ -26,6 +26,6 @@ public class ArrayNilai06 {
         System.out.println("==================================");
         System.out.println("Jumlah Mahasiswa Lulus : " + lulus);
         System.out.println("Jumlah Mahasiswa Tidak Lulus : " + tdkLulus);
-        sc.close();
+        sc.close(); 
     }
 }
