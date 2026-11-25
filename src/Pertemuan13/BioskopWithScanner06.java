@@ -30,18 +30,18 @@ public class BioskopWithScanner06 {
                     
                     if (baris < 1 || baris > penonton.length || kolom < 1 || kolom > penonton[baris - 1].length) {
                         System.out.println("Baris/kolom tidak tersedia");
+                    }  else if (penonton[baris - 1][kolom - 1] != null) {
+                        System.out.println("Kursi sudah terisi, pilih yang lain!");
+                    } else {
+                        break;
                     } 
                 }
-                // penonton[baris - 1][kolom - 1] = nama;
+                penonton[baris - 1][kolom - 1] = nama;
 
-                System.out.print("Input penonton lainnya? (y/n): ");
-                pilihan = sc.nextLine();
-
-                if (pilihan.equalsIgnoreCase("y")) {
-                continue;
-                }
             } else if (menu==2) {
-                
+                for (int i = 0; i < penonton.length; i++) {
+                    
+                }
             } else {
                 
             }
