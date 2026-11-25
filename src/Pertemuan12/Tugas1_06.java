@@ -28,6 +28,6 @@ public class Tugas1_06 {
             System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiMhs[i] + " (" + 
             status + ")"); 
         }
-        sc.close();
+        sc.close(); 
     }
 }
