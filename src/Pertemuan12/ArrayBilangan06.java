@@ -18,6 +18,6 @@ public class ArrayBilangan06 {
             System.out.println(nilai); 
         }
             System.out.println(Arrays.toString(bil));
-        sc.close();
+        sc.close(); 
     }
 }
